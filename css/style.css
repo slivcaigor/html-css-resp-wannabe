@@ -132,14 +132,14 @@ img {
 /* Tablet Responsiveness */
 @media screen and (max-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 100%;
   }
 }
 
 /* Mobile Responsiveness */
 @media screen and (max-width: 480px) {
   .container {
-    width: 480px;
+    max-width: 100%;
   }
 
   .why-us {
@@ -152,10 +152,12 @@ img {
 
   .why-us .text-center {
     padding-top: 3rem;
+    font-size: 2.5rem;
   }
 
   .why-us {
     margin-bottom: 0;
+    padding-bottom: 2rem;
   }
 
   .lessons .row {
@@ -167,7 +169,7 @@ img {
   }
 
   .lessons .col:first-child {
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
   }
 
   .steps>.container>.row {
@@ -191,6 +193,6 @@ img {
   }
 
   .why-us .col-left {
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
   }
 }
