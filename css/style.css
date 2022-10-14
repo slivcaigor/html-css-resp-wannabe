@@ -129,19 +129,21 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* Tablet Responsiveness */
+/* Large Devices Responsiveness */
 @media screen and (max-width: 1200px) {
   .container {
     max-width: 100%;
   }
 }
 
+/* Laptop Responsiveness */
 @media screen and (max-width: 992px) {
   .container {
     max-width: 100%;
   }
 }
 
+/* Tablet Responsiveness */
 @media screen and (max-width: 768px) {
   .container {
     max-width: 100%;
